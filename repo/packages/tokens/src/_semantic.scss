@@ -1,0 +1,15 @@
+:root {
+  --color-bg-surface: var(--raw-white);
+  --color-text-primary: var(--raw-slate-900);
+  --button-bg-primary: #0f766e;
+  --button-bg-primary-hover: #0d5f59;
+  --button-text: #ffffff;
+}
+
+[data-theme='dark'] {
+  --color-bg-surface: var(--raw-slate-950);
+  --color-text-primary: var(--raw-slate-100);
+  --button-bg-primary: #14b8a6;
+  --button-bg-primary-hover: #0d9488;
+  --button-text: #05211f;
+}
